@@ -12,10 +12,10 @@
   --- 02 COLOR
 
   PRIMARY: #e67e22
-  TINTS:
+  TINTS:#fdf2e9
   SHADES:
   ACCENTS:
-  GREYS: #555
+  GREYS: #555, #333
 
   --- 03 SHADOWS
 
@@ -33,6 +33,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  /* 10px / 16px * 100 % */
+  font-size: 62.5%;
 }
 
 body {

@@ -1,0 +1,26 @@
+.marginRightSmall {
+  margin-right: 1.6rem !important;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  transition: all 0.3s;
+}
+
+.btnFull:link,
+.btnFull:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btnFull:hover,
+.btnFull:active {
+  background-color: #cf711f;
+}

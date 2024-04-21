@@ -1,11 +1,8 @@
 import "./App.css";
+import HeroSection from "./pages/HeroSection";
 
 function App() {
-  return (
-    <>
-      <h1>A healthy meal delivered to your door, every single day</h1>
-    </>
-  );
+  return <HeroSection />;
 }
 
 export default App;

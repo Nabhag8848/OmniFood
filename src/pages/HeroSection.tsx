@@ -1,4 +1,5 @@
 import HeroImage from "../assets/img/hero.png";
+import RowProfiles from "../component/RowProfiles";
 import OutlineButton from "../component/buttons/OutlineButton";
 import PrimaryButton from "../component/buttons/PrimaryButton";
 import styles from "./HeroSection.module.css";
@@ -14,10 +15,11 @@ export default function HeroSection() {
           <p className={styles.heroDescription}>
             The smart 365-days-per-year food subscription that will make you eat
             healthy again. Tailored to your personal tastes and nutritional
-            needs. We have delivered 250,000+ meals last year!
+            needs.
           </p>
           <PrimaryButton>Start eating well</PrimaryButton>
           <OutlineButton>Learn more &darr;</OutlineButton>
+          <RowProfiles />
         </div>
         <div className="hero-image-box">
           <img

@@ -14,12 +14,17 @@
   LINE HEIGHTS (default: 1): 
   default: 1,
   Small: 1.05, 
+  Medium: 1.2
   Paragraph: 1.6
+
+  LETTER SPACING
+  -0.5px
+  0.75px
 
   --- 02 COLOR
 
   PRIMARY: #e67e22
-  TINTS: #fdf2e9
+  TINTS: #fdf2e9, #fae5d3
   SHADES: #cf711f
   ACCENTS:
   GREYS: #555, #333

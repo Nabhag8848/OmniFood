@@ -1,6 +1,7 @@
+import { ReactNode } from "react";
 import styles from "./PrimaryButton.module.css";
 
-function PrimaryButton({ children }) {
+function PrimaryButton({ children }: { children: ReactNode }) {
   return (
     <a
       href="#"

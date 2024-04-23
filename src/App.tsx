@@ -4,6 +4,7 @@ import FeatureStep from "./pages/FeatureStep";
 import HeroSection from "./pages/HeroSection";
 import Meals from "./pages/Meals";
 import Navigation from "./pages/Navigation";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <FeaturedSection />
         <FeatureStep />
         <Meals />
+        <Testimonials />
       </main>
     </>
   );

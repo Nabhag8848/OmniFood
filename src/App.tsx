@@ -4,6 +4,7 @@ import FeatureStep from "./pages/FeatureStep";
 import HeroSection from "./pages/HeroSection";
 import Meals from "./pages/Meals";
 import Navigation from "./pages/Navigation";
+import Pricing from "./pages/Pricing";
 import Testimonials from "./pages/Testimonials";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <FeatureStep />
         <Meals />
         <Testimonials />
+        <Pricing />
       </main>
     </>
   );

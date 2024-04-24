@@ -10,6 +10,7 @@ import {
 } from "../assets/Icons";
 import PrimaryButton from "../component/buttons/PrimaryButton";
 import Features from "../component/Features";
+import { v4 as uuidv4 } from "uuid";
 
 function Pricing() {
   return (
@@ -102,7 +103,7 @@ function Pricing() {
         className={`${common.container} ${common.grid} ${common["grid--4-cols"]}`}
       >
         {features.map((feature) => (
-          <Features values={feature} />
+          <Features values={feature} key={uuidv4()} />
         ))}
       </div>
     </section>

@@ -39,6 +39,24 @@
 .complete {
   position: relative;
   overflow: hidden;
+
+  animation-name: dropping;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dropping {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-1.2rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .complete::after {

@@ -1,7 +1,15 @@
 import styles from "./Pricing.module.css";
 import common from "./Common.module.css";
-import { CheckMark, Close } from "../assets/Icons";
+import {
+  CheckMark,
+  Close,
+  Infinite,
+  Leaf,
+  Nutrition,
+  Pause,
+} from "../assets/Icons";
 import PrimaryButton from "../component/buttons/PrimaryButton";
+import Features from "../component/Features";
 
 function Pricing() {
   return (
@@ -13,7 +21,7 @@ function Pricing() {
         </h2>
       </div>
       <div
-        className={`${common.container} ${common.grid} ${common["grid--2-cols"]}`}
+        className={`${common.container} ${common.grid} ${common["grid--2-cols"]} ${common["mb--medium"]}`}
       >
         <div className={`${styles.plan} ${styles.starter}`}>
           <header className={styles.header}>
@@ -84,8 +92,44 @@ function Pricing() {
           </div>
         </div>
       </div>
+      <div className={`${common.container} ${common.grid}`}>
+        <aside className={styles.details}>
+          Prices include all applicable taxes. You can cancel at any time. Both
+          plans include the following:
+        </aside>
+      </div>
+      <div
+        className={`${common.container} ${common.grid} ${common["grid--4-cols"]}`}
+      >
+        {features.map((feature) => (
+          <Features values={feature} />
+        ))}
+      </div>
     </section>
   );
 }
+
+const features = [
+  {
+    title: "Never cook again!",
+    text: "Our subscriptions cover 365 days per year, even including major holidays.",
+    icon: <Infinite />,
+  },
+  {
+    title: "Local and organic",
+    text: "Our cooks only use local, fresh, and organic products to prepare your meals.",
+    icon: <Nutrition />,
+  },
+  {
+    title: "No waste",
+    text: "All our partners only use reusable containers to package all your meals.",
+    icon: <Leaf />,
+  },
+  {
+    title: "Pause anytime",
+    text: "Going on vacation? Just pause your subscription, and we refund unused days.",
+    icon: <Pause />,
+  },
+];
 
 export default Pricing;

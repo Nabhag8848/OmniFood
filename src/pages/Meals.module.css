@@ -107,3 +107,15 @@ strong {
   text-align: center;
   font-size: 1.8rem;
 }
+
+@media (max-width: 75em) {
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+}

@@ -97,3 +97,17 @@
 .cta *:focus {
   box-shadow: 0 0 0 8px rgba(253, 242, 233, 0.5);
 }
+
+@media (max-width: 59em) {
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    margin-top: 1.2rem;
+  }
+}

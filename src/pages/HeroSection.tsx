@@ -21,7 +21,7 @@ export default function HeroSection() {
           <OutlineButton>Learn more &darr;</OutlineButton>
           <RowProfiles />
         </div>
-        <div className="hero-image-box">
+        <div className={styles.heroImagebox}>
           <img
             className={styles.heroImage}
             src={HeroImage}

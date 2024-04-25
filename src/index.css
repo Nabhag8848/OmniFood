@@ -71,3 +71,18 @@ body {
 
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
+
+/* 1200px landscape tablet*/
+@media (max-width: 75em) {
+  :root {
+    font-size: 56.25%;
+  }
+}
+
+/* 944px tablets */
+
+@media (max-width: 59em) {
+  :root {
+    font-size: 50%;
+  }
+}

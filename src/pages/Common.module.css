@@ -75,3 +75,14 @@
 .center-text {
   text-align: center;
 }
+
+@media (max-width: 75em) {
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}

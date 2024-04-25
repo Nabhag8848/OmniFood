@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .navLink:link,
@@ -46,4 +46,14 @@
 .navCta:hover,
 .navCta:active {
   background-color: #cf711f;
+}
+
+@media (max-width: 75em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .mainNav ul {
+    gap: 3.2rem;
+  }
 }

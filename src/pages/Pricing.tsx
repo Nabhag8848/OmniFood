@@ -128,7 +128,7 @@ const features = [
   },
   {
     title: "Pause anytime",
-    text: "Going on vacation? Just pause your subscription, and we refund unused days.",
+    text: "Going on vacation? Just pause subscription, and we refund unused days.",
     icon: <Pause />,
   },
 ];

@@ -4,32 +4,34 @@ import styles from "./Navigation.module.css";
 function Navigation() {
   return (
     <header className={styles.header}>
-      <img className={styles.logo} src={Logo} alt="Omnifood logo" />
+      <a href="#">
+        <img className={styles.logo} src={Logo} alt="Omnifood logo" />
+      </a>
       <nav className={styles.mainNav}>
         <ul>
           <li>
             <a className={styles.navLink} href="#">
-              Section 1
+              How it works
             </a>
           </li>
           <li>
             <a className={styles.navLink} href="#">
-              Section 2
+              Meals
             </a>
           </li>
           <li>
             <a className={styles.navLink} href="#">
-              Section 3
+              Testimonials
             </a>
           </li>
           <li>
             <a className={styles.navLink} href="#">
-              Section 4
+              Pricing
             </a>
           </li>
           <li>
             <a className={`${styles.navLink} ${styles.navCta}`} href="#">
-              Section 5
+              Try for free
             </a>
           </li>
         </ul>

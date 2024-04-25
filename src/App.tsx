@@ -7,6 +7,7 @@ import Navigation from "./pages/Navigation";
 import Pricing from "./pages/Pricing";
 import Testimonials from "./pages/Testimonials";
 import Cta from "./pages/Cta";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Pricing />
         <Cta />
       </main>
+      <Footer />
     </>
   );
 }

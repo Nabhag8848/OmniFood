@@ -230,3 +230,37 @@ export function Facebook() {
     </svg>
   );
 }
+
+export function Menu() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={styles.menu}
+      viewBox="0 0 512 512"
+    >
+      <path
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        strokeWidth="32"
+        d="M80 160h352M80 256h352M80 352h352"
+      />
+    </svg>
+  );
+}
+
+export function NavClose() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={styles.navIcons}
+      viewBox="0 0 512 512"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
+        d="M368 368L144 144M368 144L144 368"
+      />
+    </svg>
+  );
+}

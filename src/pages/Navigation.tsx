@@ -1,9 +1,12 @@
+import { useState } from "react";
+import { Menu, NavClose } from "../assets/Icons";
 import Logo from "../assets/img/omnifood-logo.png";
 import styles from "./Navigation.module.css";
 
 function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isOpen && styles.navOpen}`}>
       <a href="#">
         <img className={styles.logo} src={Logo} alt="Omnifood logo" />
       </a>
@@ -36,6 +39,9 @@ function Navigation() {
           </li>
         </ul>
       </nav>
+      <button className={styles.mobileNav} onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? <NavClose /> : <Menu />}
+      </button>
     </header>
   );
 }

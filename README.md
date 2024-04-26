@@ -1,4 +1,5 @@
-# Omnifood
+# Description
+- Following are details about the website, contains business and user goals. 
 
 ## About Omnifood
 

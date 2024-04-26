@@ -126,3 +126,9 @@ strong {
     justify-self: center;
   }
 }
+
+@media (max-width: 34em) {
+  .content {
+    padding: 3.2rem 4.8rem 4.8rem 3.2rem;
+  }
+}

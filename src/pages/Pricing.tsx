@@ -14,7 +14,7 @@ import { v4 as uuidv4 } from "uuid";
 
 function Pricing() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="pricing">
       <div className={`${common.container}`}>
         <span className={`${common["sub-heading"]}`}>Pricing</span>
         <h2 className={`${common["heading-secondary"]}`}>

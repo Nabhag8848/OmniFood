@@ -48,9 +48,7 @@ const FoodImages: Array<string> = Object.values(
 
 function Testimonials() {
   return (
-    <section
-      className={`${styles.section}`}
-    >
+    <section className={`${styles.section}`} id="testimonials">
       <div className={`${styles["testimonials-container"]}`}>
         <span className={`${common["sub-heading"]}`}>Testimonials</span>
         <h2 className={`${common["heading-secondary"]}`}>

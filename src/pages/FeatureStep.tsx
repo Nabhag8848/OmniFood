@@ -12,7 +12,7 @@ const ProductImages: Array<string> = Object.values(
 
 function FeatureStep() {
   return (
-    <section className={`${styles.section}`}>
+    <section className={`${styles.section}`} id="featurestep">
       <div className={`${common.container}`}>
         <span className={`${common["sub-heading"]}`}>How it works</span>
         <h2 className={`${common["heading-secondary"]}`}>

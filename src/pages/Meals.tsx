@@ -6,7 +6,7 @@ import { CheckMark, Flame, Restaurant, Star } from "../assets/Icons";
 
 function Meals() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="meals">
       <div className={`${common.container} ${common["center-text"]}`}>
         <span className={`${common["sub-heading"]}`}>Meals</span>
         <h2 className={`${common["heading-secondary"]}`}>

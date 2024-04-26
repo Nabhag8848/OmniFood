@@ -5,8 +5,10 @@ import Logo from "../assets/img/omnifood-logo.png";
 import { Facebook, Instagram, Twitter } from "../assets/Icons";
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <div
         className={`${common.container} ${common.grid} ${styles["grid--footer"]}`}
       >
@@ -32,7 +34,7 @@ function Footer() {
             </li>
           </ul>
           <p className={styles.copyright}>
-            Copyright &copy; 2027 by Omnifood, Inc All rights reserved
+            Copyright &copy; {currentYear} by Omnifood, Inc All rights reserved
           </p>
         </div>
         <div className={styles.addressCol}>

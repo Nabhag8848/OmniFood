@@ -4,7 +4,7 @@ import styles from "./PrimaryButton.module.css";
 function PrimaryButton({ children }: { children: ReactNode }) {
   return (
     <a
-      href="#"
+      href="#cta"
       className={`${styles.btn} ${styles.btnFull} ${styles.marginRightSmall}`}
     >
       {children}

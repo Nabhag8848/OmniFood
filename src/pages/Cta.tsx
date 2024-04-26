@@ -2,7 +2,7 @@ import styles from "./Cta.module.css";
 import common from "./Common.module.css";
 function Cta() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="cta">
       <div className={`${common.container}`}>
         <div className={`${styles.cta}`}>
           <div className={styles.textBox}>

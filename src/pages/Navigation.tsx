@@ -13,27 +13,47 @@ function Navigation() {
       <nav className={styles.mainNav}>
         <ul>
           <li>
-            <a className={styles.navLink} href="#">
+            <a
+              className={styles.navLink}
+              href="#featurestep"
+              onClick={() => setIsOpen(false)}
+            >
               How it works
             </a>
           </li>
           <li>
-            <a className={styles.navLink} href="#">
+            <a
+              className={styles.navLink}
+              href="#meals"
+              onClick={() => setIsOpen(false)}
+            >
               Meals
             </a>
           </li>
           <li>
-            <a className={styles.navLink} href="#">
+            <a
+              className={styles.navLink}
+              href="#testimonials"
+              onClick={() => setIsOpen(false)}
+            >
               Testimonials
             </a>
           </li>
           <li>
-            <a className={styles.navLink} href="#">
+            <a
+              className={styles.navLink}
+              href="#pricing"
+              onClick={() => setIsOpen(false)}
+            >
               Pricing
             </a>
           </li>
           <li>
-            <a className={`${styles.navLink} ${styles.navCta}`} href="#">
+            <a
+              className={`${styles.navLink} ${styles.navCta}`}
+              href="#cta"
+              onClick={() => setIsOpen(false)}
+            >
               Try for free
             </a>
           </li>

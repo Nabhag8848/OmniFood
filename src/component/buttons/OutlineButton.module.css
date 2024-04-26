@@ -27,3 +27,12 @@
   box-shadow: inset 0 0 0 3px #555;
 }
 
+@media (max-width: 34em) {
+  .btn:link,
+  .btn:visited {
+    padding: 1.4rem 2.3rem;
+  }
+  .marginRightSmall {
+    margin-right: 0.9rem !important;
+  }
+}

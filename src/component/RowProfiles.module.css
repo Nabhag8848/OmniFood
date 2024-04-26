@@ -38,3 +38,9 @@
     margin-top: 4.8rem;
   }
 }
+
+@media (max-width: 34em) {
+  .deliveredMeal {
+    flex-direction: column;
+  }
+}

@@ -1,4 +1,5 @@
-import HeroImage from "../assets/img/hero.png";
+import HeroImage from "../assets/img/hero.webp";
+import HeroMinImage from "../assets/img/hero-min.png";
 import RowProfiles from "../component/RowProfiles";
 import OutlineButton from "../component/buttons/OutlineButton";
 import PrimaryButton from "../component/buttons/PrimaryButton";
@@ -22,11 +23,15 @@ export default function HeroSection() {
           <RowProfiles />
         </div>
         <div className={styles.heroImagebox}>
-          <img
-            className={styles.heroImage}
-            src={HeroImage}
-            alt="Women Enjoying food, meals in storage container and food bowls on a table"
-          />
+          <picture>
+            <source srcSet={HeroImage} />
+            <source srcSet={HeroMinImage} />
+            <img
+              className={styles.heroImage}
+              src={HeroMinImage}
+              alt="Women Enjoying food, meals in storage container and food bowls on a table"
+            />
+          </picture>
         </div>
       </div>
     </section>
